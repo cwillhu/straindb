@@ -1,0 +1,6 @@
+raw_csv:
+  plasmid: <path to CHB_Worm_Plasmids.csv>
+  allele:  <path to CHB_Worm_Alleles.csv>
+  strain:  <path to CHB_Worm_Strains.csv>
+
+output_directory: <path to output directory>
