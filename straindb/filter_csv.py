@@ -329,6 +329,7 @@ def write_strains():  # Write valid strains to strain.csv and invalid strains to
 
                     if genotype_dict is None:
                         if DEBUG: print(f'Could not parse genotype: {genotype}')
+                        write_failure(err['invalid_genotype'], [linenum] + r)                        
                         failure = True
                     else:
                         genotype = str(genotype_dict)
